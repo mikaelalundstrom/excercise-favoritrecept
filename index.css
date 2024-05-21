@@ -1,22 +1,29 @@
 body {
     margin: 0;
-    background-color: #f7f6f3;
+    background-color: #cac6bb;
     font-family: 'Garamond';
+    color: #523333;
 }
 
-header, h3 {
+header,
+h3,
+footer {
     background-color: #523333;
     color: #f7f6f3;
 }
 
-header {
+header,
+footer {
     text-align: center;
     padding: 20px 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 15px;
 }
+
 h1 {
     font-size: 50px;
     font-family: 'Garamond';
@@ -24,7 +31,7 @@ h1 {
 
 
 
-img.cover {
+img {
     display: block;
     object-fit: cover;
     width: 50%;
@@ -33,13 +40,52 @@ img.cover {
     border-radius: 15px;
 }
 
+section {
+    display: block;
+    margin: 50px auto;
+    width: 600px;
+
+}
+
 h3 {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
-    width: 150px
+    width: 150px;
+    margin: 0;
 }
 
 
 h3 {
+    border-radius: 30px;
+}
 
+ul,
+ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 30px auto;
+}
+
+section li {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f7f6f3;
+    border-radius: 5px;
+
+}
+
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer a {
+    color: #f7f6f3;
 }
