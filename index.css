@@ -35,6 +35,7 @@ img {
     display: block;
     object-fit: cover;
     width: 50%;
+    min-width: 400px;
     height: 400px;
     margin: 50px auto;
     border-radius: 15px;
@@ -43,7 +44,7 @@ img {
 section {
     display: block;
     margin: 50px auto;
-    width: 600px;
+    max-width: 600px;
 
 }
 
@@ -51,11 +52,7 @@ h3 {
     display: block;
     padding: 10px 20px;
     width: 150px;
-    margin: 0;
-}
-
-
-h3 {
+    margin: 0 15px;
     border-radius: 30px;
 }
 
@@ -63,7 +60,7 @@ ul,
 ol {
     list-style-position: inside;
     padding: 0;
-    margin: 30px auto;
+    margin: 30px 15px;
 }
 
 section li {
